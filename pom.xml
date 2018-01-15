@@ -78,7 +78,9 @@
         <dependency>
             <groupId>org.apereo.cas</groupId>
             <artifactId>cas-server-support-rest-authentication</artifactId>
-            <version>5.0.8</version>
+            <version>${cas.version}</version>
+            <!--<type>jar</type>-->
+            <!--<scope>runtime</scope>-->
         </dependency>
 
     </dependencies>
